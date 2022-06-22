@@ -1,0 +1,405 @@
+/* // ---------------------------------------------------- HOMEPAGE ---------------------------------------------------- \\ */
+
+/* // ------------------------------ all ------------------------------ \\ */
+
+* {
+  margin: 0;
+}
+
+/* // ------------------------------ reusable ------------------------------ \\ */
+
+.header-text {
+  box-sizing: border-box;
+  color: rgb(173, 11, 11);
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 45.7167px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: none;
+  padding-bottom: 42px;
+}
+
+.description-text {
+  box-sizing: border-box;
+  color: rgb(27, 27, 27);
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 31.5px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: none;
+}
+
+.description-container {
+  padding: 40px 0;
+}
+
+.section-img {
+  max-width: 140%;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  height: 1.2cm;
+}
+
+input[type="text"]:focus {
+  outline: none !important;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.svg-triangle-down {
+  transform: rotate(180deg);
+}
+
+.button-loading {
+  background-color: #303030;
+  pointer-events: none;
+  align-items: center;
+  appearance: button;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-style: none;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  font-family: "Roboto", arial, sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-size-adjust: none;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variation-settings: normal;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: normal;
+  overflow-wrap: break-word;
+  overflow-x: visible;
+  overflow-y: visible;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-shadow: none;
+  text-transform: uppercase;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+/* // ------------------------------ NAVBAR ------------------------------ \\ */
+
+.navbar {
+  padding: 20px 0;
+}
+
+/* // ------------------------------ HERO ------------------------------ \\ */
+
+.hero-text {
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 51.1167px;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 2px 2px;
+  text-transform: none;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-text {
+    font-size: 30px;
+  }
+
+  .hero-icon {
+    width: 300px;
+  }
+}
+
+.hero-section {
+  background-blend-mode: normal;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.7) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url("../Images/hero-image.webp");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: auto, cover; 
+}
+
+.hero-section-container {
+  align-items: center;
+  display: flex;
+  font-family: "Roboto", arial, sans-serif;
+  letter-spacing: normal;
+  min-height: 800px;
+  text-shadow: none;
+  text-transform: none;
+}
+.hero-triangle {
+  max-height: 24px;
+  max-width: 53px;
+}
+/* // ------------------------------ PASJA ------------------------------ \\ */
+
+.pasja-section {
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  display: block;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  text-transform: none;
+}
+
+.pasja-section h2 {
+  padding-bottom: 70px;
+}
+
+/* // ------------------------------ DOŚWIADCZENIU ------------------------------ \\ */
+
+.doświadczeniu-section {
+  background-color: rgb(246, 246, 246);
+  box-sizing: border-box;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  text-transform: none;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+/* // ------------------------------ kontakt ------------------------------ \\ */
+
+.kontakt-button {
+  align-items: center;
+  appearance: button;
+  background-color: rgb(173, 11, 11);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-top-style: none;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: flex;
+  font-family: "Roboto", arial, sans-serif;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-optical-sizing: auto;
+  font-size: 14px;
+  font-size-adjust: none;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-alternates: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-variation-settings: normal;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 1px;
+  line-height: normal;
+  overflow-wrap: break-word;
+  overflow-x: visible;
+  overflow-y: visible;
+  text-decoration-color: rgb(255, 255, 255);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-shadow: none;
+  text-transform: uppercase;
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.kontakt-button:hover {
+  background-color: rgb(211, 14, 14);
+}
+
+.kontakt-section {
+  background-blend-mode: normal;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.24) 0%,
+      rgba(0, 0, 0, 0.24) 100%
+    ),
+    url("../Images/kontakt-image.webp");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+  background-size: cover, cover;
+  box-sizing: border-box;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 2px 30px;
+  text-transform: none;
+  padding-top: 100px;
+}
+
+.kontakt-header {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 45.7167px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 2px 30px;
+  text-transform: none;
+}
+
+.kontakt-description {
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 31.5px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.12) 0px 2px 30px;
+  text-transform: none;
+}
+
+.kontakt-triangle-container{
+  display: flex;
+  align-items: flex-end;
+}
+/* // ------------------------------ FOOTER------------------------------ \\ */
+
+.footer {
+  background-color: rgb(246, 246, 246);
+  box-sizing: border-box;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  text-transform: none;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  box-sizing: border-box;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: normal;
+  max-width: 100%;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  text-transform: none;
+}
+
+.redirect {
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  color: rgb(173, 11, 11);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 27px;
+  list-style-type: none;
+  overflow-wrap: break-word;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+  text-align: center;
+  text-decoration-color: rgb(173, 11, 11);
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-decoration-thickness: auto;
+  text-transform: none;
+  padding-bottom: 0.7cm;
+}
+
+.footer-company-name {
+  box-sizing: border-box;
+  color: rgb(21, 21, 21);
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.494px;
+  line-height: 23.9333px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-company-address {
+  box-sizing: border-box;
+  color: rgb(21, 21, 21);
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.494px;
+  line-height: 23.9333px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-copyright {
+  box-sizing: border-box;
+  color: rgb(82, 82, 82);
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.162px;
+  line-height: 18.6167px;
+  overflow-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 1cm;
+}
