@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "umbrellas",
+  "info": {
+    "singularName": "umbrella",
+    "pluralName": "umbrellas",
+    "displayName": "Umbrella",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Home": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.home"
+    },
+    "Benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "benefits.benefits"
+    },
+    "Kontakt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "kontakt.kontakt"
+    },
+    "Offers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "offer.offer"
+    },
+    "Navbar": {
+      "type": "component",
+      "repeatable": true,
+      "component": "navbar.navbar"
+    }
+  }
+}
